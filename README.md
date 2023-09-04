@@ -7,20 +7,7 @@
   <br/>
   <br/>
 
-  <p align="center">
-    <img src="https://img.shields.io/github/forks/jigar-sable/next-portfolio?style=for-the-badge" />
-  <a href="https://jigarsable.vercel.app">
-    <img src="https://img.shields.io/static/v1?label=&message=View%20Demo&style=for-the-badge&color=black&logo=vercel" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="#introduction-">Introduction</a> •
-  <a href="#tech-stack-%EF%B8%8F">Tech Stack</a> •
-  <a href="#development-">Development</a> •
-    <a href="#deployment-">Deployment</a> •
-  <a href="#license-">License</a>
-</p>
+  
 
 </div>
 
@@ -61,7 +48,7 @@ Next Portfolio is built using Next.js and Tailwind CSS for a modern design and r
 
 Here are the steps to run the portfolio locally.
 
-1. Fork [this](https://github.com/jigar-sable/next-portfolio) repository.
+1. Fork repository.
 
 2. Clone your forked copy of the repo
 
@@ -88,14 +75,12 @@ Here are the steps to run the portfolio locally.
 
 > **Note**: `SENDGRID_API_KEY` - Create an API key from "Settings" -> "API Keys" with "Restricted Access" to only "Mail Send"
 
-1. Update the sample [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
-
-2. Import json data
+1. Import json data
 
    - Go to [Firebase Console](https://console.firebase.google.com) and select your project
-   - Go to "Database" -> "Realtime Database" -> "Import JSON" and import the [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) file
+   - Go to "Database" -> "Realtime Database" -> "Import JSON" and import the data.json file
 
-3. Run the project
+2. Run the project
 
    ```bash
    npm run dev
@@ -116,20 +101,3 @@ Here are the steps to run the portfolio locally.
    ```
 4. Hurray! You successfully deployed the portfolio🥳
 
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jigar-sable/next-portfolio/blob/main/LICENSE.md)
-
-<!-- ## Contact 📬
-
-If you want to contact me, you can reach me through below handles.
-
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
-
-## Support 🙌
-
-If you like this portfolio, please consider giving it a ⭐ on GitHub and sharing it with your friends via social media.
-
-<div align="center">
-  <h3> Show some &nbsp;❤️&nbsp; by starring this repo! </h3>
-</div> -->
