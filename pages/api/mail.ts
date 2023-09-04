@@ -26,7 +26,7 @@ export default async function handler(
             html: msg.replace(/\r\n/g, "<br>"),
         };
         try {
-            await sgMail.send(data);
+            sgMail.send(data);
             res.status(200).json({ message: "Your message was sent successfully." });
         } catch (err) {
             res.status(500).json({ message: `There was an error sending your message. ${err}` });
